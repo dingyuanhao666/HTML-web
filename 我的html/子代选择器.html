@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>丁远浩的子代选择器</title>
     <!-- 丁远浩的子代选择器 -->
     <style>
-        html{
+        html {
             background-color: rgb(255, 205, 205);
         }
+
         .navbar {
             display: flex;
             justify-content: space-around;
             background-color: #ffffff79;
-            border-radius: 20px; /* 圆角 */
+            border-radius: 20px;
+            /* 圆角 */
             padding: 10px 0;
         }
 
         .nav-item {
-            color: black; /* 文字颜色 */
-            font-size: 20px; /* 字体大小 */
-            text-decoration: none; /* 去掉下划线 */
-            transition: color 0.3s ease; /* 颜色过渡效果 */
+            color: black;
+            /* 文字颜色 */
+            font-size: 20px;
+            /* 字体大小 */
+            text-decoration: none;
+            /* 去掉下划线 */
+            transition: color 0.3s ease;
+            /* 颜色过渡效果 */
         }
 
         .nav-item:hover {
-            color: #FF1493; /* 鼠标悬停时颜色变化 */
+            color: #FF1493;
+            /* 鼠标悬停时颜色变化 */
         }
-        div>p>span>strong{
+
+        div>p>span>strong {
             color: red;
         }
-        div>p>span{
+
+        div>p>span {
             color: blue;
         }
-        div>span{
+
+        div>span {
             color: green
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <a href="./zy.html" class="nav-item">首页</a>
@@ -69,4 +81,5 @@
         </p>
     </div>
 </body>
+
 </html>
